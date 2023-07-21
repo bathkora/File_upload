@@ -24,6 +24,8 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(express.json());
 
+
+//logic for get
 app.get("/", (req, res) => {
     return res.render("homepage");
 });
